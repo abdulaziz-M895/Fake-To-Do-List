@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Tahoma, Arial;
+}
+.container {
+  width: 800px;
+  margin: 20px auto;
+}
+.container div:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+h1 {
+  color: indigo;
+}
+button {
+  background-color: indigo;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.list {
+  border: 2px solid indigo;
+  background-color: aliceblue;
+}
+.todo {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.not-done {
+  padding: 10px;
+  color: white;
+  background-color: rgb(225, 6, 6);
+}
+.done {
+  padding: 10px;
+  color: white;
+  background-color: rgb(6, 192, 6);
+}
+.remove {
+  width: 30px;
+  height: 30px;
+  color: white;
+  background-color: indigo;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
